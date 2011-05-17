@@ -80,8 +80,6 @@ events.
 
                 p.push(x);
                 p.push(y);
-                for (m = 2; m < ps; ++m)
-                    p.push(origpoints[i + m]);
             }
 
             datapoints.points = newpoints;
@@ -100,6 +98,6 @@ events.
         init: init,
         options: options,
         name: 'threshold',
-        version: '1.1'
+        version: '1.0'
     });
 })(jQuery);
